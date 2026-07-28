@@ -1,11 +1,16 @@
 [package]
 name = "rustls-util"
-version = "0.1.0-dev.1"
+version = "0.24.0-dev.0"
 edition.workspace = true
+
 license = "Apache-2.0 OR ISC OR MIT"
 description = "Utilities for use with rustls"
 homepage = "https://github.com/rustls/rustls"
 repository = "https://github.com/rustls/rustls"
+
+rust-version = "1.85"
+readme = "../README.md"
+categories = ["network-programming", "cryptography"]
 
 [features]
 default = ["log"]
